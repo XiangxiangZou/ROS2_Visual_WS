@@ -1,0 +1,43 @@
+[0.012s] Invoking command in '/home/zouxx/MyData/ROS2_Visual_WS/build/my_robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zouxx/MyData/ROS2_Visual_WS/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup
+[0.066s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.693s] Error parsing '/home/zouxx/MyData/ROS2_Visual_WS/src/my_robot_bringup/package.xml':
+[1.911s] Traceback (most recent call last):
+[1.911s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.911s]     main()
+[1.911s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.911s]     raise e
+[1.911s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.912s]     package = parse_package_string(
+[1.912s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.912s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.912s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.912s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/zouxx/MyData/ROS2_Visual_WS/src/my_robot_bringup/package.xml':
+[1.912s] Error(s):
+[1.912s] - The manifest of package "my_robot_bringup" (with format version 3) must not contain the following tags: execute_depend
+[1.958s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.958s]   execute_process(/usr/bin/python3
+[1.958s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.958s]   /home/zouxx/MyData/ROS2_Visual_WS/src/my_robot_bringup/package.xml
+[1.958s]   /home/zouxx/MyData/ROS2_Visual_WS/build/my_robot_bringup/ament_cmake_core/package.cmake)
+[1.958s]   returned error code 1
+[1.958s] Call Stack (most recent call first):
+[1.958s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.958s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.959s]   CMakeLists.txt:15 (ament_package)
+[1.959s] 
+[1.959s] [0m
+[1.959s] -- Configuring incomplete, errors occurred!
+[1.963s] Invoked command in '/home/zouxx/MyData/ROS2_Visual_WS/build/my_robot_bringup' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zouxx/MyData/ROS2_Visual_WS/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup

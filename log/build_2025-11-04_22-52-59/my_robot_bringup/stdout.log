@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zouxx/MyData/ROS2_Visual_WS/build/my_robot_bringup
+-- Install configuration: ""
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup//launch
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+-- Installing: /home/zouxx/MyData/ROS2_Visual_WS/install/my_robot_bringup/share/my_robot_bringup/package.xml
