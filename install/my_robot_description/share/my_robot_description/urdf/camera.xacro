@@ -34,9 +34,8 @@
   </joint>
 
 
-  <!-- Optical frame -->
+  <!-- Optical frame for camera to emilate the real world blue light -->
   <link name="camera_optical_link"/>
-
   <joint name="camera_optical_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="${-pi/2} 0.0 ${-pi/2}"/>
     <parent link="camera_link"/>

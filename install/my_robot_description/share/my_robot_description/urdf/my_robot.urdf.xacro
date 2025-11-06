@@ -5,5 +5,15 @@
     <xacro:include filename="mobile_base.xacro" />
     <xacro:include filename="mobile_base_gazebo.xacro" />
     <xacro:include filename="camera.xacro" />
+    <xacro:include filename="arm.xacro" />
+    <xacro:include filename="arm_base_gazebo.xacro" />
+
+
+    <!-- Define base dimensions -->
+    <joint name="arm_base_mobile_joint" type="fixed">
+        <origin xyz="0.2 0.0 0.2" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="arm_base_link"/>
+    </joint>
 
 </robot>
